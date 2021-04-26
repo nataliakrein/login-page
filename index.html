@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- ICONS -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<!-- FONT -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<!-- CSS -->
+		<link rel="stylesheet" href="./assets/css/elements/reset.css">
+		<link rel="stylesheet" href="./assets/css/elements/base.css">
+		<link rel="stylesheet" href="./assets/css/settings/colors.css">
+		<link rel="stylesheet" href="./assets/css/components/main.css">
+		<link rel="stylesheet" href="./assets/css/components/input.css">
+		<link rel="stylesheet" href="./assets/css/components/button.css">
+		<title>Login</title>
+	</head>
+  	<body>
+  		<main class="main">
+			<div class="main__container">
+  				<div class="main__login">
+  						<h1 class="main__title">Sign in</h1>
+  							<div class="main__inputs">
+  								<div class="input" id="inputEmail">
+  									<input type="email" class="input__element" id="email"/>
+        							<span class="material-icons input__icon"> alternate_email </span>
+            						<p class="input__message--error">Por favor, insira um email válido</p>
+  								</div>
+  								<div class="input" id="inputPassword">
+  									<input type="password" class="input__element" id="password"/>
+        							<span class="material-icons input__icon"> lock </span>
+            						<p class="input__message--error">Senha inválida</p>
+  								</div>
+  								<button type="submit" class="main__button" id="button">Entrar</button>
+  							</div>
+  						<div class="main__help">
+  							<p>problemas para entrar?</p>
+  							<a href="#" class="help">clique aqui</a>
+  						</div>
+  				</div>
+  				<div class="main__illustration"></div>
+			</div>
+  		</main>
+  		<script src="./assets/js/main.js"></script>
+  	</body>
+</html>

@@ -1,0 +1,11 @@
+.main__button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    cursor: pointer;
+    border: 2px solid var(--second-color);
+    border-radius: 25px;
+    height: 35px;
+    width: 100%;
+}

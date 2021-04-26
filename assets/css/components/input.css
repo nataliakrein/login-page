@@ -1,0 +1,48 @@
+.input {
+    position: relative;
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input__element {
+    background-color: transparent;
+    border: 2px solid var(--second-color);
+    border-radius: 25px;
+    padding: 10px 15px 10px 35px;
+    font-size: 1.2rem;
+    height: 35px;
+    width: 100%;
+}
+
+.input__icon {
+    position: absolute;
+    margin: 5px auto;
+    left: 8px;
+}
+
+.input--error > input  {
+    border-color: var(--alert-color);
+}
+  
+.input--error > span {
+    color: var(--alert-color);
+}
+
+.input__message--error {
+    display: none;
+    margin-top: 1%;
+    font-size: 0.8rem;
+
+}
+
+.input--error .input__message--error  {
+    display: block;
+    position: absolute;
+    font-size: 0.8rem;
+    color: var(--alert-color);
+    top: 95%;
+    left: 10%;
+}
+  
